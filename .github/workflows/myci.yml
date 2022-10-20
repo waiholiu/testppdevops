@@ -27,7 +27,7 @@ jobs:
           solution-file: packed-solutions/kon_core.zip
           solution-folder: solutions/kon_core/src
           solution-type: Both
-      - uses: actions/upload-artifact@latest
+      - uses: actions/upload-artifact@v3.1.0
         with:
             # Artifact name
           name: packed-solutions-artifact
