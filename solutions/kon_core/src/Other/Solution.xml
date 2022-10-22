@@ -77,7 +77,17 @@
         </Address>
       </Addresses>
     </Publisher>
-    <RootComponents />
-    <MissingDependencies />
+    <RootComponents>
+      <RootComponent type="1" schemaName="kon_parkingspot" behavior="0" />
+      <RootComponent type="62" schemaName="kon_ParkingSpotApp" behavior="0" />
+      <RootComponent type="80" schemaName="kon_ParkingSpotApp" behavior="0" />
+      <RootComponent type="300" schemaName="kon_parkingspotcanvasapp_03bd6" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="kon_ParkingSpotApp" displayName="Parking Spot App" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>

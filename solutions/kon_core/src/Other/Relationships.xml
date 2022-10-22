@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_kon_parkingspot" />
+  <EntityRelationship Name="lk_kon_parkingspot_createdby" />
+  <EntityRelationship Name="lk_kon_parkingspot_modifiedby" />
+  <EntityRelationship Name="owner_kon_parkingspot" />
+  <EntityRelationship Name="team_kon_parkingspot" />
+  <EntityRelationship Name="user_kon_parkingspot" />
+</EntityRelationships>
