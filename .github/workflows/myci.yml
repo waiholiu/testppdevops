@@ -35,6 +35,7 @@ jobs:
           path: packed-solutions
   deploy:
     environment: Prod
+    if: ${{ github.ref_name == 'main' }}
     needs:
       - build
     runs-on: ubuntu-latest
